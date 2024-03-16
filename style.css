@@ -1,0 +1,213 @@
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.btn{
+     padding: .6rem .8rem;
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+     background: #d63031;
+     color: white;
+     font-size: 16px;
+     text-decoration: none;
+     outline: none;
+     border: 2px solid #d63031;
+     transition: .3s;
+     cursor: pointer;
+}
+.btn:hover{
+     background: transparent;
+}
+body{
+     background-color: black;
+     /* font-family: var(--font); */
+     font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+     position: fixed;
+     width: 100vw;
+     height: 60px;
+     /* border-top: .5rem solid var(--primary--color); */
+     border-top: .5rem solid #d63031;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 999999;
+}
+.logo
+{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     height: 55px;
+     width: 18%;
+     font-weight: 1000;
+     background-color: #d63031;
+     /* background: var(--primary--color); */
+}
+.logo::before{
+     content: "GYM";
+     color: white;
+}
+.logo::after{
+     content: " Today";
+     color: black;
+}
+ul{
+     display: flex;
+     align-items: center;
+     height: 60px;
+}
+ul a{
+     text-decoration: none;
+     color: black;
+     margin: 0 2rem;
+     text-transform: uppercase;
+     /* font-family: var(--font); */
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 700;
+     font-size: 16px;
+}
+ul li{
+     list-style: none;
+}
+ul a:hover{
+     /* color: var(--primary--color); */
+     color: #d51010d6;
+}
+
+.banner{
+     background: url(image/pexels-photo-3768698.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 85vh;
+}
+.intro{
+     position: absolute;
+     top: 30%;
+     left: 10%;
+     color: white
+}
+.intro h2,p{
+     display: block;
+     width: 60%;
+}
+.intro h2{
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-size: 30px;
+}
+.intro .btn{
+     margin-top: 1rem;
+}
+/* .row{
+     display: flex;
+     /* justify-content: center;
+/* } */
+
+/* .card{
+     width: 33.3%;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}  */
+/* .card h2{
+     text-transform: uppercase;
+} */
+/* .row1 h2{
+
+     background-color: #d63031;
+     width: 33%;
+     height: 250px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     float: left;
+}
+.row2 h2{
+     margin-top: 0;
+     background-color: #1170c9;
+     width: 33%;
+     height: 250px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     float: left;
+}
+.row3 h2{
+     margin-top: ;
+     background-color: #c6d139d3;
+     width: 33%;
+     height: 250px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     float: left;
+} */
+.row1{
+     background-color: #1a8cd8;
+     height: 200px;
+     width: 33.3%;
+     display: flex;
+     float: left;
+}
+.row2{
+     background-color: #d63031;
+     height: 200px;
+     width: 33.3%;
+     float: left;
+}
+.row3{
+     background-color: #3acb2a;
+     height: 200px;
+     width: 33.4%;
+     float: left;
+}
+.card1 h2{
+     text-align: center;
+     text-transform: uppercase;
+     margin-top: 10%;
+}
+.card2 h2{
+     text-align: center;
+     text-transform: uppercase;
+     margin-top: 10%;
+}
+.card3 h2{
+     text-align: center;
+     text-transform: uppercase;
+     margin-top: 10%;
+}
+.card1 p{
+     width: 100%;
+     margin-top: 6%;
+     font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     text-align: center;
+}
+.card2 p{
+     width: 100%;
+     margin-top: 6%;
+     font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     text-align: center;
+}
+.card3 p{
+     width: 100%;
+     margin-top: 6%;
+     font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     text-align: center;
+}
